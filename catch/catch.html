@@ -1,0 +1,45 @@
+<!DOCTYPE HTML 5.13.14>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" 
+  href="style.css">
+  <title>Catch</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="2"><h1 style="text-align:center">STAR CUPS</h1></td>
+        <td><h1>Score: </h1></td>
+        <td><h1 id="score">0</h1></td>
+    </tr>
+</table>
+<div id="path" class="path">
+	<img id="block" class="block" src="golden-star.svg.png"></img>
+    <img id="brick" class="brick" src="Starbucks-Cup.png"></img>
+    <img id="cube" class="cube" src="gstar.png"></img>
+    <img id="enemy" class="enemy" src="meteor_PNG37.png"></img>
+    <div id="gameover"></div>
+</div>
+<br>
+<div class="box">
+<table>
+    <tr>
+        <td><button onclick='movedown()'><b>Start Game</b></button></td>
+        <td><button id="left"onclick='moveleft(block)'><b>t</b></button></td>
+        <td><button id="right" onclick='moveright(block)'><b>u</b></button></td>
+        <td><button id="reset" onclick='reset()'><b>Reset</b></button></td>
+        
+    </tr>
+</table>
+</div>
+<script src="script.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
